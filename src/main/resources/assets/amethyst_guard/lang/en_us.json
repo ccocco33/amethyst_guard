@@ -1,0 +1,31 @@
+{
+  "amethyst_guard.config.title": "Amethyst Guard Settings",
+  "amethyst_guard.config.category.mining_restrict": "Mining Restrictions",
+
+  "amethyst_guard.config.option.smallBud.name": "Allow Small Amethyst Bud",
+  "amethyst_guard.config.option.smallBud.desc": "Whether to allow breaking SMALL_AMETHYST_BUD.",
+
+  "amethyst_guard.config.option.mediumBud.name": "Allow Medium Amethyst Bud",
+  "amethyst_guard.config.option.mediumBud.desc": "Whether to allow breaking MEDIUM_AMETHYST_BUD.",
+
+  "amethyst_guard.config.option.largeBud.name": "Allow Large Amethyst Bud",
+  "amethyst_guard.config.option.largeBud.desc": "Whether to allow breaking LARGE_AMETHYST_BUD.",
+
+  "amethyst_guard.config.option.cluster.name": "Allow Amethyst Cluster",
+  "amethyst_guard.config.option.cluster.desc": "Whether to allow breaking AMETHYST_CLUSTER.",
+
+  "amethyst_guard.config.option.buddingProtect.name": "Protect Budding Amethyst",
+  "amethyst_guard.config.option.buddingProtect.desc": "Prevents breaking BUDDING_AMETHYST.",
+
+  "amethyst_guard.config.option.showMsg.name": "Show On-screen Messages",
+  "amethyst_guard.config.option.showMsg.desc": "Show action-bar messages when mining is blocked.",
+
+  "amethyst_guard.msg.blocked.small": "You cannot mine the Small Amethyst Bud.",
+  "amethyst_guard.msg.blocked.medium": "You cannot mine the Medium Amethyst Bud.",
+  "amethyst_guard.msg.blocked.large": "You cannot mine the Large Amethyst Bud.",
+  "amethyst_guard.msg.blocked.cluster": "You cannot mine the Amethyst Cluster.",
+  "amethyst_guard.msg.blocked.budding": "The Budding Amethyst is protected.",
+
+  "amethyst_guard.modmenu.summary": "Controls mining permissions of Amethyst growth stages."
+
+}

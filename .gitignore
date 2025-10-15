@@ -1,0 +1,80 @@
+# ----------------------------------------
+# 기본: OS / IDE / 빌드 / Minecraft Dev
+# ----------------------------------------
+
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/   # (혹시 잘못 잡힌 서브빌드 제외용)
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse (혹시 열었을 경우)
+.settings/
+.classpath
+.project
+
+# VSCode (Fabric Loom 일부 dev가 쓸 수도 있어서)
+.vscode/
+
+# Minecraft 로그 / 실행 캐시
+run/
+logs/
+crash-reports/
+
+# Minecraft configuration & generated files
+config/
+# ↑ 단, 모드 기본 config를 Git에 포함하고 싶으면 이 줄 지워도 됨.
+
+# Loom Dev cache
+.remapped/
+.remapCache/
+loom-cache/
+.gradle-cache/
+.gradle-cache*/
+
+# Fabric dev temp
+fabric-loom-runtime/
+fabric-loom-testmod/
+
+# OS별 임시 파일
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Java 빌드 산출물
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archive / 배포물 (배포 시만 따로 올림)
+*.jar
+*.zip
+
+# ----------------------------------------
+# 선택적 예외 (버전관리 하고싶은 파일)
+# ----------------------------------------
+# gradle wrapper만 추적
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# 필수 메타파일
+!.gitignore
+!gradle.properties
+!build.gradle
+!settings.gradle
+!fabric.mod.json

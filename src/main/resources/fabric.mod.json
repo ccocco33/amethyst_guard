@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "amethyst_guard",
+  "version": "${version}",
+  "name": "Amethyst Guard",
+  "description":  "A mod that controls mining of Amethyst growth stages.",
+  "authors": ["you"],
+  "license": "MIT",
+  "icon": "assets/amethyst_guard/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ameguard.AmethystGuardMod"
+    ],
+    "client": [
+      "com.ameguard.client.AmethystGuardClient"
+    ],
+    "modmenu": [
+      "com.ameguard.client.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "~1.20.1"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "yet-another-config-lib": "*"
+  }
+}
