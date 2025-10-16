@@ -3,7 +3,7 @@
   "id": "amethyst_guard",
   "version": "${version}",
   "name": "Amethyst Guard",
-  "description":  "A mod that controls mining of Amethyst growth stages.",
+  "description": "A mod that controls mining of Amethyst growth stages. (자수정 성장 단계별로 파괴 가능/불가 모드)",
   "authors": ["you"],
   "license": "MIT",
   "icon": "assets/amethyst_guard/icon.png",
@@ -22,7 +22,12 @@
   "depends": {
     "fabricloader": ">=0.16.10",
     "fabric": "*",
-    "minecraft": "~1.20.1"
+    "minecraft": "~1.20.4"
+  },
+  "custom": {
+    "modmenu": {
+      "summaryTranslationKey": "amethyst_guard.modmenu.summary"
+    }
   },
   "suggests": {
     "modmenu": "*",
