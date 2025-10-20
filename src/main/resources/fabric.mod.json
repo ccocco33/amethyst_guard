@@ -8,6 +8,10 @@
   "license": "MIT",
   "icon": "assets/amethyst_guard/icon.png",
   "environment": "*",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/amethyst-guard",
+    "sources": "https://github.com/ccocco33/amethyst_guard"
+  },
   "entrypoints": {
     "main": [
       "com.ameguard.AmethystGuardMod"
