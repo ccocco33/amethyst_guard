@@ -10,7 +10,7 @@
   "environment": "*",
   "contact": {
     "homepage": "https://modrinth.com/mod/amethyst-guard",
-    "sources": "https://github.com/ccocco33/amethyst_guard"
+    "sources": "https://github.com/ccocco33/amethyst-guard"
   },
   "entrypoints": {
     "main": [
